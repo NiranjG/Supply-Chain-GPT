@@ -1,0 +1,96 @@
+# Inventory Management Policy
+
+## 1. Purpose
+This policy establishes guidelines for inventory management across all warehouses to ensure optimal stock levels, minimize carrying costs, and prevent stockouts.
+
+## 2. Scope
+This policy applies to all SKUs managed across warehouses WH-001, WH-002, and WH-003.
+
+## 3. Inventory Classification (ABC Analysis)
+
+### Class A Items
+- Represent 20% of SKUs but 80% of inventory value
+- Require weekly review cycles
+- Safety stock: 2 weeks of average demand
+- Reorder frequency: Weekly
+
+### Class B Items
+- Represent 30% of SKUs and 15% of inventory value
+- Require bi-weekly review cycles
+- Safety stock: 3 weeks of average demand
+- Reorder frequency: Bi-weekly
+
+### Class C Items
+- Represent 50% of SKUs and 5% of inventory value
+- Require monthly review cycles
+- Safety stock: 4 weeks of average demand
+- Reorder frequency: Monthly
+
+## 4. Reorder Point Calculation
+
+The reorder point (ROP) is calculated as:
+ROP = (Average Daily Demand × Lead Time) + Safety Stock
+
+Example for SKU-12345:
+- Average Daily Demand: 100 units
+- Lead Time: 7 days
+- Safety Stock: 200 units
+- ROP = (100 × 7) + 200 = 900 units
+
+## 5. Safety Stock Guidelines
+
+Safety stock levels should account for:
+- Demand variability (coefficient of variation)
+- Lead time variability
+- Desired service level (default: 95%)
+
+Formula: Safety Stock = Z × σd × √L
+Where:
+- Z = Z-score for service level (1.65 for 95%)
+- σd = Standard deviation of daily demand
+- L = Lead time in days
+
+## 6. Service Level Targets
+
+| Category | Service Level | Max Stockout Days/Year |
+|----------|--------------|------------------------|
+| Critical | 99% | 3.65 |
+| High | 97% | 10.95 |
+| Standard | 95% | 18.25 |
+| Low | 90% | 36.5 |
+
+## 7. Warehouse-Specific Guidelines
+
+### WH-001 (Main Distribution Center)
+- Primary hub for all Class A items
+- 24-hour receiving capability
+- Maximum capacity: 50,000 pallet positions
+
+### WH-002 (Regional East)
+- Serves eastern region customers
+- Lead time from WH-001: 3 days
+- Maximum capacity: 20,000 pallet positions
+
+### WH-003 (Regional West)
+- Serves western region customers
+- Lead time from WH-001: 5 days
+- Maximum capacity: 25,000 pallet positions
+
+## 8. Cycle Counting Schedule
+
+- Class A items: Count weekly
+- Class B items: Count monthly
+- Class C items: Count quarterly
+
+Variance threshold for investigation: 2% of item value
+
+## 9. Review and Updates
+
+This policy shall be reviewed quarterly and updated as needed to reflect:
+- Changes in demand patterns
+- New product introductions
+- Supplier lead time changes
+- Capacity constraints
+
+Last Updated: 2024-01-15
+Approved By: Supply Chain Director

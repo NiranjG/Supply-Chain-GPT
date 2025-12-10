@@ -1,0 +1,130 @@
+# Supplier Contract Summary
+
+## SUP-001: Acme Manufacturing Co.
+
+### Contract Details
+- Contract ID: SUP-001-2024
+- Effective Date: January 1, 2024
+- Expiration Date: December 31, 2025
+- Contract Value: $2,500,000 annually
+
+### Products Supplied
+- SKU-10001: Industrial Widgets (primary supplier)
+- SKU-10002: Heavy-Duty Bearings
+- SKU-10003: Precision Gears
+
+### Terms and Conditions
+
+#### Pricing
+- Fixed pricing for Year 1
+- Price adjustment clause: Max 3% increase in Year 2 based on CPI
+- Volume discount: 5% on orders exceeding $50,000
+
+#### Delivery Terms
+- Standard Lead Time: 14 days
+- Express Lead Time: 7 days (15% surcharge)
+- FOB: Destination
+- Minimum Order Quantity (MOQ): 500 units
+
+#### Quality Standards
+- Defect rate: Maximum 0.5%
+- Quality inspection: 100% for first 3 shipments, then AQL 2.5
+- Certificate of Conformance required with each shipment
+
+#### Service Level Agreement (SLA)
+- On-Time Delivery Rate: 98%
+- Fill Rate: 99%
+- Response Time for Quotes: 24 hours
+- Penalty for non-compliance: 2% of order value per incident
+
+---
+
+## SUP-002: Global Parts Inc.
+
+### Contract Details
+- Contract ID: SUP-002-2024
+- Effective Date: March 1, 2024
+- Expiration Date: February 28, 2026
+- Contract Value: $1,800,000 annually
+
+### Products Supplied
+- SKU-20001: Electronic Components
+- SKU-20002: Circuit Boards
+- SKU-20003: Connectors
+
+### Terms and Conditions
+
+#### Pricing
+- Quarterly price reviews
+- Volume tiers:
+  - 0-1000 units: $15.00/unit
+  - 1001-5000 units: $13.50/unit
+  - 5001+ units: $12.00/unit
+
+#### Delivery Terms
+- Standard Lead Time: 21 days
+- Emergency orders: 10 days (25% surcharge)
+- FOB: Origin
+- MOQ: 200 units
+
+#### Quality Standards
+- Defect rate: Maximum 0.3%
+- ISO 9001:2015 certified
+- First Article Inspection (FAI) required for new items
+
+#### SLA
+- On-Time Delivery Rate: 97%
+- Fill Rate: 98%
+- Technical support response: 4 hours
+- Penalty: 1.5% of order value
+
+---
+
+## SUP-003: FastShip Logistics
+
+### Contract Details
+- Contract ID: SUP-003-2024
+- Effective Date: January 1, 2024
+- Expiration Date: December 31, 2024
+- Contract Value: $500,000 annually
+
+### Products Supplied
+- SKU-30001: Packaging Materials
+- SKU-30002: Shipping Supplies
+- SKU-30003: Labels and Tags
+
+### Terms and Conditions
+
+#### Pricing
+- Fixed pricing with annual review
+- Bulk discount: 10% on pallet quantities
+
+#### Delivery Terms
+- Standard Lead Time: 5 days
+- Same-week delivery available
+- FOB: Destination
+- MOQ: 100 units
+
+#### Quality Standards
+- Defect rate: Maximum 1%
+- Sustainable materials certification required
+
+#### SLA
+- On-Time Delivery Rate: 99%
+- Fill Rate: 99.5%
+- Customer service response: 2 hours
+
+---
+
+## Emergency Contact Information
+
+| Supplier | Primary Contact | Phone | Email |
+|----------|----------------|-------|-------|
+| SUP-001 | John Smith | 555-0101 | jsmith@acme.com |
+| SUP-002 | Sarah Johnson | 555-0202 | sjohnson@globalparts.com |
+| SUP-003 | Mike Brown | 555-0303 | mbrown@fastship.com |
+
+## Contract Review Schedule
+- Quarterly business reviews required
+- Annual contract renegotiation begins 90 days before expiration
+- Performance scorecard updated monthly

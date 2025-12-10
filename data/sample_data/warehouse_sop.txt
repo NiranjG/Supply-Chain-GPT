@@ -1,0 +1,185 @@
+# Standard Operating Procedure: Warehouse Operations
+
+## SOP-WH-001: Receiving Process
+
+### Purpose
+This SOP defines the standard process for receiving goods at all warehouse locations.
+
+### Scope
+Applies to all inbound shipments at WH-001, WH-002, and WH-003.
+
+### Procedure
+
+#### Step 1: Shipment Arrival
+1. Verify truck arrival against appointment schedule
+2. Check BOL (Bill of Lading) against PO in system
+3. Document any visible damage to vehicle or packaging
+4. Assign dock door and receiving bay
+
+#### Step 2: Unloading
+1. Ensure proper safety equipment is worn
+2. Use appropriate material handling equipment
+3. Place goods in designated staging area
+4. Count pallets/cartons against BOL
+
+#### Step 3: Inspection
+1. Perform visual inspection of packaging
+2. Check for damage, leaks, or contamination
+3. Verify product labels match documentation
+4. For temperature-sensitive items, verify temp records
+
+#### Step 4: Quality Check
+1. Random sample inspection (AQL 2.5 for standard items)
+2. 100% inspection for critical items
+3. Document any defects or discrepancies
+4. Hold non-conforming items for review
+
+#### Step 5: System Entry
+1. Create receipt in WMS within 2 hours of unloading
+2. Enter actual quantities received
+3. Generate variance report if quantities differ
+4. Apply appropriate lot/batch numbers
+
+#### Step 6: Put-Away
+1. Generate put-away tasks
+2. Move goods to assigned locations
+3. Confirm location in WMS
+4. Complete receiving transaction
+
+### Performance Metrics
+- Dock-to-Stock Time: < 4 hours
+- Receiving Accuracy: > 99.5%
+- Damage Rate: < 0.1%
+
+---
+
+## SOP-WH-002: Picking Process
+
+### Purpose
+Define efficient and accurate order picking procedures.
+
+### Picking Methods
+
+#### Zone Picking
+Used for large orders spanning multiple zones:
+1. Order split by zone automatically
+2. Each picker works assigned zone
+3. Consolidation at packing station
+
+#### Batch Picking
+Used for multiple small orders:
+1. Group similar orders (max 10)
+2. Pick all items in single pass
+3. Sort to individual orders at station
+
+#### Wave Picking
+Used for scheduled shipments:
+1. Orders grouped by carrier/route
+2. Released in timed waves
+3. Synchronized with shipping schedule
+
+### Picking Procedure
+
+1. Receive pick task on RF device
+2. Proceed to first location
+3. Verify location barcode
+4. Pick quantity displayed
+5. Scan item barcode for verification
+6. Place in designated container
+7. Confirm pick completion
+8. Proceed to next location
+9. After final pick, deliver to packing
+
+### Accuracy Standards
+- Pick Accuracy Target: 99.9%
+- Mispick Response: Investigate within 1 hour
+- Short Ship Prevention: Double-check critical items
+
+---
+
+## SOP-WH-003: Shipping Process
+
+### Outbound Shipping Procedure
+
+#### Packing
+1. Verify all items present for order
+2. Select appropriate packaging
+3. Add dunnage for protection
+4. Include packing slip
+5. Seal and label package
+
+#### Carrier Selection
+- Standard orders: Ground shipping (3-5 days)
+- Priority orders: Express shipping (1-2 days)
+- Hazmat items: Certified carrier only
+
+#### Documentation
+1. Generate shipping label
+2. Create BOL for LTL/TL shipments
+3. Attach commercial invoice for exports
+4. File required customs documents
+
+#### Loading
+1. Stage by carrier/route
+2. Verify load sequence
+3. Secure freight properly
+4. Obtain driver signature
+5. Complete shipment in WMS
+
+### Cutoff Times
+| Carrier | Cutoff Time | Pickup Time |
+|---------|-------------|-------------|
+| UPS | 3:00 PM | 4:00 PM |
+| FedEx | 3:30 PM | 4:30 PM |
+| LTL | 2:00 PM | 3:00 PM |
+
+---
+
+## SOP-WH-004: Cycle Counting
+
+### Daily Cycle Count Procedure
+
+1. Generate daily count list (automated at 6:00 AM)
+2. Print count sheets or load to RF devices
+3. Count items blind (no expected quantities)
+4. Enter counts into system
+5. Investigate variances > 2%
+6. Make adjustments with supervisor approval
+7. Document root cause for adjustments
+
+### Counting Frequency
+- A Items: Weekly
+- B Items: Monthly
+- C Items: Quarterly
+- High-value items: Weekly regardless of class
+
+### Accuracy Requirements
+- Overall Inventory Accuracy: > 98%
+- A Item Accuracy: > 99%
+- Investigation required for any variance > $100
+
+---
+
+## Emergency Procedures
+
+### Fire
+1. Sound alarm
+2. Evacuate via nearest exit
+3. Meet at designated assembly point
+4. Call 911
+
+### Chemical Spill
+1. Alert supervisor immediately
+2. Evacuate affected area
+3. Contain spill if safe
+4. Contact hazmat team
+
+### Injury
+1. Provide first aid if trained
+2. Call for medical assistance
+3. Complete incident report
+4. Notify safety officer
+
+Document Owner: Operations Manager
+Last Review: 2024-01-10
+Next Review: 2024-07-10
